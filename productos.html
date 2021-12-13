@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Productos | CellStore</title>
+    <link rel="icon" type="image/png" href="../asset/img/logo.png" />
+    <meta name="description" content="">
+	<meta name="keyword" content="Celulares, Samsung, Apple, etc.">
+
+</head>
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <img src="../asset/img/logo.png"><a class="navbar-brand" href=""><strong>CellStore</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>        
+                <form class="form-inline my-2 my-lg-0">
+               
+                  <a class="btn btn-sm btn-primary my-2 my-sm-0" href="pages/ingresar.html">Ingresar</a>
+              </form>
+            </div>
+        </div>
+    </nav>
+</header>
+    <div class="container paddingSeccion">
+        <div class="row col-lg-12">
+            <div class="card-transparent" style="width: 100%; height: 90px;">
+                <h1 class="card-title centro" id="fila_prueba">Productos</h1>
+            </div>
+        </div>
+        <div class="row" id="cards"></div>
+        </div>
+        <template id="template-card">
+            <div class= "col-md-4">
+                <img src="" alt="" class="card-img-top" style="height: 25rem; height: auto;">
+                <div class="card-body card-transparent">
+                    <h4>Nombre</h4>
+                    <h5> Precio</h5>
+                    <button class="btn btn-outline-info waves-effect btn-id"> Añadir al carrito </button>
+                </div>
+            </div>
+        </template>
+
+        <table class="table paddingSeccion card-transparent">
+        <h1><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"><path fill="none" d="M0 0h24v24H0z"/><path d="M7 8V6a5 5 0 1 1 10 0v2h3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3zm0 2H5v10h14V10h-2v2h-2v-2H9v2H7v-2zm2-2h6V6a3 3 0 0 0-6 0v2z" fill="rgba(255,255,255,1)"/></svg>
+            Carrito de Compras </h1> 
+<section id="dolar"></section>
+            <hr>
+            <template id="template-dolar">
+                <div class= "col-md-4">
+                    <div class="card-body card-transparent">
+                        <h5> Precio</h5>
+                    </div>
+                </div>
+            </template>
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Item</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col"></th>
+                <th scope="col">Total</th>
+            </tr>
+            </thead>
+            <tbody id="items"></tbody>
+            <tfoot>
+            <tr id="footer">
+                <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+            </tr>
+            </tfoot>
+        </table>
+        <template id="template-footer">
+            <th scope="row" colspan="2">Total productos</th>
+            <td>10</td>
+            <td>
+                <button class="btn btn-danger btn-sm" id="vaciar-carrito">Vaciar Carrito</button>
+            </td>
+
+            <td class="font-weight-bold">U$D <span>5000</span></td>
+        </template>
+        <template id="template-carrito">
+            <tr>
+            <th scope="row">id</th>
+            <td>Nombre</td>
+            <td>Cantidad</td>
+            <td>
+                <button class="btn btn-info btn-sm">
+                    +
+                </button>
+                <button class="btn btn-danger btn-sm">
+                    -
+                </button>
+            </td>
+            <td>U$D <span>Precio</span></td>
+            </tr>
+        </template>
+        <section class="fondoFooter">
+            <footer class="container">
+                <div class="footerPadding">
+                    <div class="row ">
+                        <div class="col-md-3 footerLinks footerPadding">
+                            <a href="index.html">Inicio</a>
+                            <a href="pages/productos.html">Productos</a>
+                            <a href="pages/contacto.html">Contacto</a>
+                            <a href="pages/nosotros.html">Nosotros</a> 
+                        </div>
+                        <div class="col-md-3  footerPadding">
+                            <a href="https:/www.facebook.com" target="blank"><img src="asset/img/facebook.png" class="imgRedes" alt="Icono Facebook"></a>
+                            <a href="https:/www.instagram.com" target="blank"><img src="asset/img/instagram.png" class="imgRedes" alt="Icono Instagram"></a>
+                        </div>
+                    </div>
+            
+                </div>      
+            </footer>
+        </section>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+     new WOW().init();
+ </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/api.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

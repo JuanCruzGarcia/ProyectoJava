@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/estilo.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<title>CellStore | Contacto</title>
+	<link rel="icon" type="image/png" href="../asset/img/logo.png" />
+	<meta name="description" content="">
+	<meta name="keyword" content="Celulares, Samsung, Apple, etc.">
+
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <img src="../asset/img/logo.png"><a class="navbar-brand" href=""><strong>CellStore</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>        
+                    <form class="form-inline my-2 my-lg-0">
+
+                        <a class="btn btn-sm btn-primary my-2 my-sm-0" href="ingresar.html">Ingresar</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+   <div class="conteiner-fluid">
+     <main>
+
+      <form id="formularioContacto" class="col-md-5">
+        <div class="row md-form footerPadding">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22h-2v-2a3 3 0 0 0-3-3H9a3 3 0 0 0-3 3v2H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="rgba(255,255,255,1)"/></svg>
+          <label for="form2" class="active">Nombre</label>
+          <input type="text" id="NombreContacto" class="white-text form-control" placeholder="Ingrese Nombre">
+       </div>
+
+       <div class="row md-form footerPadding ">                          
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 12a8 8 0 1 0-3.562 6.657l1.11 1.664A9.953 9.953 0 0 1 12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10v1.5a3.5 3.5 0 0 1-6.396 1.966A5 5 0 1 1 15 8H17v5.5a1.5 1.5 0 0 0 3 0V12zm-8-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" fill="rgba(255,255,255,1)"/></svg>          <label for="form3" class="active">Email</label>
+        <input type="email" id="EmailContacto" class="white-text form-control" placeholder="Ingrese Email">                     
+     </div>
+
+       <div class="row md-form footerPadding">                          
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" fill="rgba(255,255,255,1)"/></svg>
+        <label for="form4" class="active">Consulta</label>
+        <textarea class="white-text form-control" placeholder="Ingrese Consulta" id="textConsulta"></textarea>                  
+      </div>
+
+        <div class="text-center mt-4 footerPadding">
+    <button type="submit"class="btn btn-outline-info waves-effect">Enviar</button>
+    <p class="warnings" id="warnings"></p>
+  </div>                
+              
+   </form>      
+
+        
+    </main>
+    </div>
+
+    <section class="fondoFooter footerPadding">
+        <footer class="container">
+            <div class="footerPadding">
+                <div class="row ">
+                    <div class="col-md-3 footerLinks footerPadding">
+                        <a href="../index.html">Inicio</a>
+                        <a href="productos.html">Productos</a>
+                        <a href="contacto.html">Contacto</a>
+                        <a href="nosotros.html">Nosotros</a> 
+                    </div>
+                    <div class="col-md-3  footerPadding">
+                        <a href="https:/www.facebook.com" target="blank"><img src="../asset/img/facebook.png" class="imgRedes" alt="Icono Facebook"></a>
+                        <a href="https:/www.instagram.com" target="blank"><img src="../asset/img/instagram.png" class="imgRedes" alt="Icono Instagram"></a>
+                    </div>
+                    
+                </div>
+          
+            </div>      
+        </footer>
+    </section>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>	 
+    <script src="../js/validarContacto.js"></script> 
+    <script src="../js/script.js"></script>
+   
+    <script src="../js/wow.min.js"></script>
+</body>
+</html>

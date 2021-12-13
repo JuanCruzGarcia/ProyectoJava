@@ -1,0 +1,107 @@
+body {
+    background-image: url(../asset/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #272727;
+}
+
+nav{
+    background-color: #262B2C;
+}
+
+p {
+    color: white;
+}
+
+h1{
+    color: white;
+    
+}
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+h2{
+    color:white;
+    text-shadow: 1px 1px 2px #515A5A, 0 0 1em #515A5A, 0 0 0.2em #515A5A;
+}
+h4{
+    color:white;
+}
+h5{
+    color:white;  
+}
+h3{
+    color: white;
+    text-shadow: 1px 1px 2px #515A5A, 0 0 1em #515A5A, 0 0 0.2em #515A5A;
+}
+.conteiner-fluid{
+    padding-top: 150px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+
+.paddingSeccion{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.fondoFooter{
+    background: #262B2C;
+    width: 100%; 
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: white; 
+    display: block;
+}
+
+.footerPadding{
+    padding:18px;
+}
+
+.imgRedes {
+    display: block;
+    padding: 10px; 
+}
+
+form label{
+    color: white;
+}
+
+.card-transparent{
+    background-color: rgb(33, 62, 66, 0.8);
+    border-radius: 5px;
+}
+
+.imgCard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paddingButtom{
+    padding-bottom: 80px;
+}
+
+.card-colums{
+    align-content: space-around;
+}
+
+tr{
+    color:white;
+}
+
+hr{
+    color:white; 
+}
+th{
+    color:white;
+}
+td{
+    color:white;  
+}

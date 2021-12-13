@@ -1,0 +1,55 @@
+[{
+    "id": 1,
+    "foto": "asset/img/iphone-X.png",
+    "nombre": "Iphone x",
+    "precio": 800
+},
+{
+    "id": 2,
+    "foto": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
+    "nombre": "Iphone 11",
+    "precio": 1000
+},
+{
+    "id": 3,
+    "foto": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
+    "nombre": "Iphone 12",
+    "precio": 1200
+},
+{
+    "id": 4,
+    "foto": "https://img01.huaweifile.com/sg/ms/cl/pms/product/6901443386161/800_800_4B267261A6140C8366CFFD07F13397C00AD2A0C0448DBE6Amp.png",
+    "nombre": "P40 Pro Dual SIM",
+    "precio": 300
+},
+{
+    "id": 5,
+    "foto": "asset/img/redmi-note-10.png",
+    "nombre": "Redmi Note 10S",
+    "precio": 400
+},
+{
+    "id": 6,
+    "foto": "https://www.sharecomputacion.com/wp-content/uploads/2020/07/grey.png",
+    "nombre": "Redmi Note 9S",
+    "precio": 300
+},
+{
+    "id": 7,
+    "foto": "https://personalpy.vteximg.com.br/arquivos/ids/156013-1000-1000/Samsung_Galaxy_S21u_back.png?v=637487361064870000",
+    "nombre": "S21",
+    "precio": 900
+},
+{
+    "id": 8,
+    "foto": "asset/img/A21s.png",
+    "nombre": "A21s",
+    "precio": 300
+},
+{
+    "id": 9,
+    "foto": "asset/img/A72.png",
+    "nombre": "A72",
+    "precio": 500
+}
+]
